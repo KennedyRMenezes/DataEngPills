@@ -1,0 +1,261 @@
+[2024-10-04 23:31:53 -0300] [96097] [INFO] Starting gunicorn 20.1.0
+[2024-10-04 23:31:53 -0300] [96097] [INFO] Listening at: http://0.0.0.0:8793 (96097)
+[2024-10-04 23:31:53 -0300] [96097] [INFO] Using worker: sync
+[2024-10-04 23:31:53 -0300] [96098] [INFO] Booting worker with pid: 96098
+[2024-10-04 23:31:53 -0300] [96099] [INFO] Booting worker with pid: 96099
+Process DagFileProcessor280-Process:
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 155, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2818, in _iter
+    result = self.session.execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1670, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1520, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1389, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1748, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1929, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT import_error.filename AS import_error_filename 
+FROM import_error]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+Process DagFileProcessor800-Process:
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: import_error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 155, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 536, in update_import_errors
+    session.query(errors.ImportError).filter(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 3108, in delete
+    result = self.session.execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1627, in execute
+    ) = compile_state_cls.orm_pre_session_exec(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1824, in orm_pre_session_exec
+    update_options = cls._do_pre_synchronize_fetch(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 2079, in _do_pre_synchronize_fetch
+    result = session.execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1670, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1520, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1389, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1748, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1929, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: import_error
+[SQL: SELECT import_error.id 
+FROM import_error 
+WHERE (import_error.filename LIKE ? || '%')]
+[parameters: ('/home/kennedy/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py',)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2024-10-05 00:02:32 -0300] [96097] [INFO] Handling signal: term
+[2024-10-05 00:02:32 -0300] [96098] [INFO] Worker exiting (pid: 96098)
+[2024-10-05 00:02:32 -0300] [96099] [INFO] Worker exiting (pid: 96099)
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: dag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/base_job.py", line 244, in run
+    self._execute()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/scheduler_job.py", line 739, in _execute
+    self._run_scheduler_loop()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/scheduler_job.py", line 827, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/scheduler_job.py", line 899, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/utils/retries.py", line 76, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/utils/retries.py", line 85, in wrapped_function
+    return func(*args, **kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/scheduler_job.py", line 967, in _create_dagruns_for_dags
+    self._create_dag_runs(query.all(), session)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2818, in _iter
+    result = self.session.execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1670, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1520, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1389, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1748, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1929, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dag
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_parsed_time AS dag_last_parsed_time, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.timetable_description AS dag_timetable_description, dag.max_active_tasks AS dag_max_active_tasks, dag.max_active_runs AS dag_max_active_runs, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.has_import_errors AS dag_has_import_errors, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_data_interval_start AS dag_next_dagrun_data_interval_start, dag.next_dagrun_data_interval_end AS dag_next_dagrun_data_interval_end, dag.next_dagrun_create_after AS dag_next_dagrun_create_after 
+FROM dag 
+WHERE dag.is_paused = 0 AND dag.is_active = 1 AND dag.has_import_errors = 0 AND dag.next_dagrun_create_after <= CURRENT_TIMESTAMP ORDER BY dag.next_dagrun_create_after
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 70, in scheduler
+    _run_scheduler_job(args=args)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 46, in _run_scheduler_job
+    job.run()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/jobs/base_job.py", line 255, in run
+    session.merge(self)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2872, in merge
+    return self._merge(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2950, in _merge
+    merged = self.get(mapper.class_, key[1], identity_token=key[2])
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2695, in get
+    return self._get_impl(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2796, in _get_impl
+    return db_load_fn(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/loading.py", line 531, in load_on_pk_identity
+    session.execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1670, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1520, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1389, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1748, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1929, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kennedy/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.dag_id AS job_dag_id, job.state AS job_state, job.job_type AS job_job_type, job.start_date AS job_start_date, job.end_date AS job_end_date, job.latest_heartbeat AS job_latest_heartbeat, job.executor_class AS job_executor_class, job.hostname AS job_hostname, job.unixname AS job_unixname 
+FROM job 
+WHERE job.id = ? AND job.job_type IN (?)]
+[parameters: (5, 'SchedulerJob')]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kennedy/.local/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/__main__.py", line 38, in main
+    args.func(args)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/cli/cli_parser.py", line 51, in command
+    return func(*args, **kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "/home/kennedy/.local/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 69, in scheduler
+    with ctx:
+  File "/home/kennedy/.local/lib/python3.10/site-packages/daemon/daemon.py", line 422, in __exit__
+    self.close()
+  File "/home/kennedy/.local/lib/python3.10/site-packages/daemon/daemon.py", line 416, in close
+    self.pidfile.__exit__(None, None, None)
+  File "/usr/lib/python3/dist-packages/lockfile/__init__.py", line 204, in __exit__
+[2024-10-05 00:02:33 -0300] [96097] [INFO] Shutting down: Master
+    self.release()
+  File "/usr/lib/python3/dist-packages/lockfile/pidlockfile.py", line 103, in release
+    raise NotLocked("%s is not locked" % self.path)
+lockfile.NotLocked: /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/airflow-scheduler.pid is not locked
+Exception ignored in atexit callback: <bound method DaemonContext.close of <daemon.daemon.DaemonContext object at 0x7ac7a7377f40>>
+Traceback (most recent call last):
+  File "/home/kennedy/.local/lib/python3.10/site-packages/daemon/daemon.py", line 416, in close
+    self.pidfile.__exit__(None, None, None)
+  File "/usr/lib/python3/dist-packages/lockfile/__init__.py", line 204, in __exit__
+    self.release()
+  File "/usr/lib/python3/dist-packages/lockfile/pidlockfile.py", line 103, in release
+    raise NotLocked("%s is not locked" % self.path)
+lockfile.NotLocked: /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/airflow-scheduler.pid is not locked

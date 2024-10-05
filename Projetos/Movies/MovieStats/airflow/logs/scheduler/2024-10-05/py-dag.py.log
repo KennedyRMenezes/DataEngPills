@@ -1,0 +1,207 @@
+[2024-10-04 23:38:22,759] {processor.py:153} INFO - Started process (PID=98462) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:38:22,760] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:38:22,761] {logging_mixin.py:115} INFO - [2024-10-04 23:38:22,761] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:38:22,782] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:38:24,050] {logging_mixin.py:115} INFO - [2024-10-04 23:38:24,049] {manager.py:508} INFO - Created Permission View: can edit on DAG:python_dag
+[2024-10-04 23:38:24,511] {logging_mixin.py:115} INFO - [2024-10-04 23:38:24,510] {manager.py:508} INFO - Created Permission View: can read on DAG:python_dag
+[2024-10-04 23:38:24,945] {logging_mixin.py:115} INFO - [2024-10-04 23:38:24,945] {manager.py:508} INFO - Created Permission View: can delete on DAG:python_dag
+[2024-10-04 23:38:24,945] {logging_mixin.py:115} INFO - [2024-10-04 23:38:24,945] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:38:24,972] {logging_mixin.py:115} INFO - [2024-10-04 23:38:24,971] {dag.py:2398} INFO - Creating ORM DAG for python_dag
+[2024-10-04 23:38:25,001] {logging_mixin.py:115} INFO - [2024-10-04 23:38:25,001] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:38:25,184] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.431 seconds
+[2024-10-04 23:42:09,308] {processor.py:153} INFO - Started process (PID=99670) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:09,316] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:42:09,317] {logging_mixin.py:115} INFO - [2024-10-04 23:42:09,317] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:09,337] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:09,370] {logging_mixin.py:115} INFO - [2024-10-04 23:42:09,369] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:42:09,416] {logging_mixin.py:115} INFO - [2024-10-04 23:42:09,416] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:42:09,530] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.228 seconds
+[2024-10-04 23:42:23,537] {processor.py:153} INFO - Started process (PID=99733) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:23,539] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:42:23,540] {logging_mixin.py:115} INFO - [2024-10-04 23:42:23,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:23,563] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:42:23,613] {logging_mixin.py:115} INFO - [2024-10-04 23:42:23,613] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:42:23,666] {logging_mixin.py:115} INFO - [2024-10-04 23:42:23,665] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:42:23,938] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.409 seconds
+[2024-10-04 23:43:24,171] {processor.py:153} INFO - Started process (PID=99810) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:24,177] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:43:24,178] {logging_mixin.py:115} INFO - [2024-10-04 23:43:24,178] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:24,200] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:24,247] {logging_mixin.py:115} INFO - [2024-10-04 23:43:24,247] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:43:24,291] {logging_mixin.py:115} INFO - [2024-10-04 23:43:24,291] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:43:24,871] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.708 seconds
+[2024-10-04 23:43:33,953] {processor.py:153} INFO - Started process (PID=99824) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:34,023] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:43:34,024] {logging_mixin.py:115} INFO - [2024-10-04 23:43:34,024] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:34,045] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:43:35,222] {logging_mixin.py:115} INFO - [2024-10-04 23:43:35,222] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:43:35,265] {logging_mixin.py:115} INFO - [2024-10-04 23:43:35,264] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:43:36,918] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.974 seconds
+[2024-10-04 23:44:13,843] {processor.py:153} INFO - Started process (PID=99871) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:13,858] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:44:13,859] {logging_mixin.py:115} INFO - [2024-10-04 23:44:13,859] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:13,879] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:13,916] {logging_mixin.py:115} INFO - [2024-10-04 23:44:13,916] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:44:13,954] {logging_mixin.py:115} INFO - [2024-10-04 23:44:13,954] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:44:15,454] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.618 seconds
+[2024-10-04 23:44:17,114] {processor.py:153} INFO - Started process (PID=99874) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:17,116] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:44:17,117] {logging_mixin.py:115} INFO - [2024-10-04 23:44:17,117] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:17,135] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:17,280] {logging_mixin.py:115} INFO - [2024-10-04 23:44:17,280] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:44:17,320] {logging_mixin.py:115} INFO - [2024-10-04 23:44:17,320] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:44:17,421] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.313 seconds
+[2024-10-04 23:44:34,336] {processor.py:153} INFO - Started process (PID=99937) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:34,343] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:44:34,345] {logging_mixin.py:115} INFO - [2024-10-04 23:44:34,344] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:34,363] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:44:34,392] {logging_mixin.py:115} INFO - [2024-10-04 23:44:34,391] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:44:34,432] {logging_mixin.py:115} INFO - [2024-10-04 23:44:34,432] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:44:36,675] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.345 seconds
+[2024-10-04 23:45:08,861] {processor.py:153} INFO - Started process (PID=100111) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:08,997] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:45:08,998] {logging_mixin.py:115} INFO - [2024-10-04 23:45:08,997] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:09,018] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:09,298] {logging_mixin.py:115} INFO - [2024-10-04 23:45:09,297] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:45:09,337] {logging_mixin.py:115} INFO - [2024-10-04 23:45:09,337] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:45:09,438] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.586 seconds
+[2024-10-04 23:45:16,132] {processor.py:153} INFO - Started process (PID=100157) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:16,158] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:45:16,159] {logging_mixin.py:115} INFO - [2024-10-04 23:45:16,159] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:16,178] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:45:16,211] {logging_mixin.py:115} INFO - [2024-10-04 23:45:16,211] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:45:16,252] {logging_mixin.py:115} INFO - [2024-10-04 23:45:16,252] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:45:16,371] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.245 seconds
+[2024-10-04 23:46:14,885] {processor.py:153} INFO - Started process (PID=101014) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:46:14,897] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:46:14,898] {logging_mixin.py:115} INFO - [2024-10-04 23:46:14,898] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:46:14,918] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:46:14,959] {logging_mixin.py:115} INFO - [2024-10-04 23:46:14,958] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:46:15,001] {logging_mixin.py:115} INFO - [2024-10-04 23:46:15,001] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:46:16,472] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.595 seconds
+[2024-10-04 23:47:16,899] {processor.py:153} INFO - Started process (PID=101239) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:47:16,911] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:47:16,913] {logging_mixin.py:115} INFO - [2024-10-04 23:47:16,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:47:16,939] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:47:16,994] {logging_mixin.py:115} INFO - [2024-10-04 23:47:16,994] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:47:17,040] {logging_mixin.py:115} INFO - [2024-10-04 23:47:17,040] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:47:17,505] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.614 seconds
+[2024-10-04 23:48:06,849] {processor.py:153} INFO - Started process (PID=101522) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:06,861] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:48:06,862] {logging_mixin.py:115} INFO - [2024-10-04 23:48:06,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:06,882] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:06,925] {logging_mixin.py:115} INFO - [2024-10-04 23:48:06,924] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:48:06,978] {logging_mixin.py:115} INFO - [2024-10-04 23:48:06,978] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:48:07,205] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.362 seconds
+[2024-10-04 23:48:08,851] {processor.py:153} INFO - Started process (PID=101556) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:08,851] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:48:08,852] {logging_mixin.py:115} INFO - [2024-10-04 23:48:08,852] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:08,867] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:48:10,922] {logging_mixin.py:115} INFO - [2024-10-04 23:48:10,922] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:48:13,916] {logging_mixin.py:115} INFO - [2024-10-04 23:48:13,915] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:48:17,022] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 8.179 seconds
+[2024-10-04 23:49:24,570] {processor.py:153} INFO - Started process (PID=102338) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:49:25,429] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:49:25,430] {logging_mixin.py:115} INFO - [2024-10-04 23:49:25,430] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:49:25,452] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:49:25,501] {logging_mixin.py:115} INFO - [2024-10-04 23:49:25,501] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:49:25,544] {logging_mixin.py:115} INFO - [2024-10-04 23:49:25,544] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:49:27,009] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.446 seconds
+[2024-10-04 23:50:28,974] {processor.py:153} INFO - Started process (PID=102419) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:50:28,987] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:50:28,988] {logging_mixin.py:115} INFO - [2024-10-04 23:50:28,987] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:50:29,006] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:50:29,044] {logging_mixin.py:115} INFO - [2024-10-04 23:50:29,044] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:50:29,091] {logging_mixin.py:115} INFO - [2024-10-04 23:50:29,091] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:50:30,075] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.107 seconds
+[2024-10-04 23:51:28,460] {processor.py:153} INFO - Started process (PID=102680) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:51:28,469] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:51:28,471] {logging_mixin.py:115} INFO - [2024-10-04 23:51:28,470] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:51:28,493] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:51:28,540] {logging_mixin.py:115} INFO - [2024-10-04 23:51:28,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:51:28,590] {logging_mixin.py:115} INFO - [2024-10-04 23:51:28,589] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:51:29,003] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.551 seconds
+[2024-10-04 23:52:14,323] {processor.py:153} INFO - Started process (PID=102830) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:14,328] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:52:14,329] {logging_mixin.py:115} INFO - [2024-10-04 23:52:14,329] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:14,348] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:14,386] {logging_mixin.py:115} INFO - [2024-10-04 23:52:14,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:52:14,424] {logging_mixin.py:115} INFO - [2024-10-04 23:52:14,424] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:52:15,843] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.527 seconds
+[2024-10-04 23:52:56,661] {processor.py:153} INFO - Started process (PID=102866) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:56,668] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:52:56,669] {logging_mixin.py:115} INFO - [2024-10-04 23:52:56,669] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:56,691] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:52:56,742] {logging_mixin.py:115} INFO - [2024-10-04 23:52:56,742] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:52:56,786] {logging_mixin.py:115} INFO - [2024-10-04 23:52:56,786] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:52:57,752] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.099 seconds
+[2024-10-04 23:53:41,887] {processor.py:153} INFO - Started process (PID=103669) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:53:42,535] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:53:42,537] {logging_mixin.py:115} INFO - [2024-10-04 23:53:42,536] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:53:42,560] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:53:42,615] {logging_mixin.py:115} INFO - [2024-10-04 23:53:42,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:53:42,685] {logging_mixin.py:115} INFO - [2024-10-04 23:53:42,685] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:53:42,911] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.035 seconds
+[2024-10-04 23:54:36,438] {processor.py:153} INFO - Started process (PID=103872) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:54:36,448] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:54:36,449] {logging_mixin.py:115} INFO - [2024-10-04 23:54:36,449] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:54:36,469] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:54:36,507] {logging_mixin.py:115} INFO - [2024-10-04 23:54:36,507] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:54:36,548] {logging_mixin.py:115} INFO - [2024-10-04 23:54:36,548] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:54:38,894] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.463 seconds
+[2024-10-04 23:55:32,651] {processor.py:153} INFO - Started process (PID=103968) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:55:32,660] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:55:32,662] {logging_mixin.py:115} INFO - [2024-10-04 23:55:32,662] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:55:32,694] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:55:32,739] {logging_mixin.py:115} INFO - [2024-10-04 23:55:32,739] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:55:32,763] {logging_mixin.py:115} INFO - [2024-10-04 23:55:32,763] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:55:32,848] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.205 seconds
+[2024-10-04 23:56:34,660] {processor.py:153} INFO - Started process (PID=104920) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:56:34,779] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:56:34,781] {logging_mixin.py:115} INFO - [2024-10-04 23:56:34,780] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:56:34,802] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:56:34,845] {logging_mixin.py:115} INFO - [2024-10-04 23:56:34,845] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:56:34,872] {logging_mixin.py:115} INFO - [2024-10-04 23:56:34,872] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:56:35,523] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.871 seconds
+[2024-10-04 23:57:40,801] {processor.py:153} INFO - Started process (PID=105198) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:57:40,838] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:57:40,839] {logging_mixin.py:115} INFO - [2024-10-04 23:57:40,839] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:57:40,867] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:57:40,902] {logging_mixin.py:115} INFO - [2024-10-04 23:57:40,902] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:57:40,957] {logging_mixin.py:115} INFO - [2024-10-04 23:57:40,957] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:57:41,481] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.687 seconds
+[2024-10-04 23:58:35,584] {processor.py:153} INFO - Started process (PID=105297) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:58:35,590] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:58:35,591] {logging_mixin.py:115} INFO - [2024-10-04 23:58:35,591] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:58:35,621] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:58:35,656] {logging_mixin.py:115} INFO - [2024-10-04 23:58:35,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:58:35,697] {logging_mixin.py:115} INFO - [2024-10-04 23:58:35,697] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:58:37,734] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.157 seconds
+[2024-10-04 23:59:34,548] {processor.py:153} INFO - Started process (PID=105443) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:59:34,561] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-04 23:59:34,562] {logging_mixin.py:115} INFO - [2024-10-04 23:59:34,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:59:34,590] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-04 23:59:34,623] {logging_mixin.py:115} INFO - [2024-10-04 23:59:34,623] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-04 23:59:34,667] {logging_mixin.py:115} INFO - [2024-10-04 23:59:34,667] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-04 23:59:35,587] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.046 seconds
+[2024-10-05 00:00:31,300] {processor.py:153} INFO - Started process (PID=105611) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:00:31,327] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-05 00:00:31,328] {logging_mixin.py:115} INFO - [2024-10-05 00:00:31,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:00:31,355] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:00:31,386] {logging_mixin.py:115} INFO - [2024-10-05 00:00:31,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-05 00:00:31,425] {logging_mixin.py:115} INFO - [2024-10-05 00:00:31,425] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-05 00:00:33,142] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 1.848 seconds
+[2024-10-05 00:01:16,866] {processor.py:153} INFO - Started process (PID=105691) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:16,914] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-05 00:01:16,915] {logging_mixin.py:115} INFO - [2024-10-05 00:01:16,915] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:16,941] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:16,972] {logging_mixin.py:115} INFO - [2024-10-05 00:01:16,972] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-05 00:01:17,011] {logging_mixin.py:115} INFO - [2024-10-05 00:01:17,011] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-05 00:01:17,323] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 0.466 seconds
+[2024-10-05 00:01:53,618] {processor.py:153} INFO - Started process (PID=105890) to work on /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:53,629] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py for tasks to queue
+[2024-10-05 00:01:53,630] {logging_mixin.py:115} INFO - [2024-10-05 00:01:53,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:53,656] {processor.py:651} INFO - DAG(s) dict_keys(['python_dag']) retrieved from /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py
+[2024-10-05 00:01:53,684] {logging_mixin.py:115} INFO - [2024-10-05 00:01:53,684] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-05 00:01:53,696] {logging_mixin.py:115} INFO - [2024-10-05 00:01:53,696] {dag.py:2927} INFO - Setting next_dagrun for python_dag to 2024-09-30T00:00:00+00:00, run_after=2024-10-01T00:00:00+00:00
+[2024-10-05 00:01:55,727] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/01.Exercícios/DE/Movies/MovieStats/airflow/dags/py-dag.py took 2.117 seconds
