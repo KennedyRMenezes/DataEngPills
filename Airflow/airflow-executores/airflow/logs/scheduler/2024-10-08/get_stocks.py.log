@@ -1,0 +1,354 @@
+[2024-10-08 16:35:57,597] {processor.py:153} INFO - Started process (PID=16103) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:35:57,597] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:35:57,598] {logging_mixin.py:115} INFO - [2024-10-08 16:35:57,598] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:35:59,303] {logging_mixin.py:115} INFO - [2024-10-08 16:35:58,286] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:35:59,304] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:36:05,031] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 7.437 seconds
+[2024-10-08 16:37:16,123] {processor.py:153} INFO - Started process (PID=16754) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:16,131] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:37:16,131] {logging_mixin.py:115} INFO - [2024-10-08 16:37:16,131] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:16,474] {logging_mixin.py:115} INFO - [2024-10-08 16:37:16,472] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:37:16,474] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:16,546] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.425 seconds
+[2024-10-08 16:37:48,433] {processor.py:153} INFO - Started process (PID=16806) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:48,440] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:37:48,441] {logging_mixin.py:115} INFO - [2024-10-08 16:37:48,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:48,884] {logging_mixin.py:115} INFO - [2024-10-08 16:37:48,882] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:37:48,884] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:37:48,961] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.535 seconds
+[2024-10-08 16:38:24,151] {processor.py:153} INFO - Started process (PID=17006) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:38:24,156] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:38:24,157] {logging_mixin.py:115} INFO - [2024-10-08 16:38:24,156] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:38:24,875] {logging_mixin.py:115} INFO - [2024-10-08 16:38:24,872] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:38:24,876] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:38:24,981] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.834 seconds
+[2024-10-08 16:39:49,084] {processor.py:153} INFO - Started process (PID=17524) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:39:49,212] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:39:49,213] {logging_mixin.py:115} INFO - [2024-10-08 16:39:49,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:39:49,602] {logging_mixin.py:115} INFO - [2024-10-08 16:39:49,600] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:39:49,602] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:39:50,417] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.340 seconds
+[2024-10-08 16:40:50,491] {processor.py:153} INFO - Started process (PID=17706) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:40:50,498] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:40:50,498] {logging_mixin.py:115} INFO - [2024-10-08 16:40:50,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:40:50,881] {logging_mixin.py:115} INFO - [2024-10-08 16:40:50,880] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:40:50,882] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:40:51,943] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.454 seconds
+[2024-10-08 16:42:04,726] {processor.py:153} INFO - Started process (PID=18099) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:04,730] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:42:04,731] {logging_mixin.py:115} INFO - [2024-10-08 16:42:04,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:05,152] {logging_mixin.py:115} INFO - [2024-10-08 16:42:05,151] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:42:05,153] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:05,665] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.942 seconds
+[2024-10-08 16:42:43,829] {processor.py:153} INFO - Started process (PID=18198) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:44,321] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:42:44,321] {logging_mixin.py:115} INFO - [2024-10-08 16:42:44,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:44,776] {logging_mixin.py:115} INFO - [2024-10-08 16:42:44,775] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:42:44,777] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:42:44,880] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.054 seconds
+[2024-10-08 16:43:35,712] {processor.py:153} INFO - Started process (PID=18235) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:43:35,780] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:43:35,781] {logging_mixin.py:115} INFO - [2024-10-08 16:43:35,781] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:43:36,114] {logging_mixin.py:115} INFO - [2024-10-08 16:43:36,112] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:43:36,114] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:43:36,538] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.829 seconds
+[2024-10-08 16:44:20,281] {processor.py:153} INFO - Started process (PID=18271) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:44:20,297] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:44:20,298] {logging_mixin.py:115} INFO - [2024-10-08 16:44:20,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:44:20,734] {logging_mixin.py:115} INFO - [2024-10-08 16:44:20,733] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:44:20,734] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:44:21,298] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.025 seconds
+[2024-10-08 16:45:06,529] {processor.py:153} INFO - Started process (PID=18322) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:06,531] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:45:06,532] {logging_mixin.py:115} INFO - [2024-10-08 16:45:06,532] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:06,888] {logging_mixin.py:115} INFO - [2024-10-08 16:45:06,887] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:45:06,888] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:07,878] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.355 seconds
+[2024-10-08 16:45:52,816] {processor.py:153} INFO - Started process (PID=18527) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:52,826] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:45:52,826] {logging_mixin.py:115} INFO - [2024-10-08 16:45:52,826] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:53,265] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:45:55,096] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,096] {manager.py:508} INFO - Created Permission View: can edit on DAG:get_stocks_dag
+[2024-10-08 16:45:55,452] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,451] {manager.py:508} INFO - Created Permission View: can read on DAG:get_stocks_dag
+[2024-10-08 16:45:55,942] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,941] {manager.py:508} INFO - Created Permission View: can delete on DAG:get_stocks_dag
+[2024-10-08 16:45:55,942] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,942] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:45:55,953] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,953] {dag.py:2398} INFO - Creating ORM DAG for get_stocks_dag
+[2024-10-08 16:45:55,969] {logging_mixin.py:115} INFO - [2024-10-08 16:45:55,969] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-04T00:00:00+00:00
+[2024-10-08 16:45:57,594] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 4.781 seconds
+[2024-10-08 16:47:18,890] {processor.py:153} INFO - Started process (PID=19066) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:47:18,897] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:47:18,897] {logging_mixin.py:115} INFO - [2024-10-08 16:47:18,897] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:47:19,258] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:47:19,266] {logging_mixin.py:115} INFO - [2024-10-08 16:47:19,266] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:47:19,277] {logging_mixin.py:115} INFO - [2024-10-08 16:47:19,277] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-04T00:00:00+00:00
+[2024-10-08 16:47:19,982] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.093 seconds
+[2024-10-08 16:48:04,093] {processor.py:153} INFO - Started process (PID=19226) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:04,105] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:48:04,106] {logging_mixin.py:115} INFO - [2024-10-08 16:48:04,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:04,458] {logging_mixin.py:115} INFO - [2024-10-08 16:48:04,457] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:48:04,458] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:05,277] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.186 seconds
+[2024-10-08 16:48:37,746] {processor.py:153} INFO - Started process (PID=19249) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:37,771] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:48:37,772] {logging_mixin.py:115} INFO - [2024-10-08 16:48:37,772] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:38,188] {logging_mixin.py:115} INFO - [2024-10-08 16:48:38,186] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:48:38,188] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:48:38,330] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.589 seconds
+[2024-10-08 16:49:09,381] {processor.py:153} INFO - Started process (PID=19291) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:09,382] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:49:09,382] {logging_mixin.py:115} INFO - [2024-10-08 16:49:09,382] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:09,762] {logging_mixin.py:115} INFO - [2024-10-08 16:49:09,760] {dagbag.py:320} ERROR - Failed to import: /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+Traceback (most recent call last):
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py", line 33, in <module>
+    def get_stocks_dag():
+  File "/home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2947, in wrapper
+    dag_bound_args = dag_sig.bind_partial(*dag_args, **dag_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3052, in bind_partial
+    return self._bind(args, kwargs, partial=True)
+  File "/usr/lib/python3.9/inspect.py", line 3034, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'star_date'
+[2024-10-08 16:49:09,762] {processor.py:653} WARNING - No viable dags retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:11,039] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.661 seconds
+[2024-10-08 16:49:49,211] {processor.py:153} INFO - Started process (PID=19346) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:49,221] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:49:49,222] {logging_mixin.py:115} INFO - [2024-10-08 16:49:49,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:49,714] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:49:49,722] {logging_mixin.py:115} INFO - [2024-10-08 16:49:49,721] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:49:49,738] {logging_mixin.py:115} INFO - [2024-10-08 16:49:49,738] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-04T00:00:00+00:00
+[2024-10-08 16:49:52,344] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 3.140 seconds
+[2024-10-08 16:50:18,564] {processor.py:153} INFO - Started process (PID=19614) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:50:18,666] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:50:18,667] {logging_mixin.py:115} INFO - [2024-10-08 16:50:18,667] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:50:19,449] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:50:19,830] {logging_mixin.py:115} INFO - [2024-10-08 16:50:19,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:50:19,875] {logging_mixin.py:115} INFO - [2024-10-08 16:50:19,875] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-04T00:00:00+00:00
+[2024-10-08 16:50:19,996] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.436 seconds
+[2024-10-08 16:53:45,313] {processor.py:153} INFO - Started process (PID=21961) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:53:45,327] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:53:45,328] {logging_mixin.py:115} INFO - [2024-10-08 16:53:45,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:53:45,843] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:53:46,077] {logging_mixin.py:115} INFO - [2024-10-08 16:53:46,076] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:53:46,106] {logging_mixin.py:115} INFO - [2024-10-08 16:53:46,106] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-08T00:00:00+00:00, run_after=2022-01-11T00:00:00+00:00
+[2024-10-08 16:53:46,257] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.950 seconds
+[2024-10-08 16:58:09,575] {processor.py:153} INFO - Started process (PID=23169) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:58:09,584] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:58:09,585] {logging_mixin.py:115} INFO - [2024-10-08 16:58:09,584] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:58:10,191] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:58:10,206] {logging_mixin.py:115} INFO - [2024-10-08 16:58:10,206] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:58:10,234] {logging_mixin.py:115} INFO - [2024-10-08 16:58:10,234] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-11T00:00:00+00:00, run_after=2022-01-12T00:00:00+00:00
+[2024-10-08 16:58:10,916] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.344 seconds
+[2024-10-08 16:59:02,073] {processor.py:153} INFO - Started process (PID=23681) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:59:02,083] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 16:59:02,083] {logging_mixin.py:115} INFO - [2024-10-08 16:59:02,083] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:59:02,573] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 16:59:02,583] {logging_mixin.py:115} INFO - [2024-10-08 16:59:02,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:59:02,603] {logging_mixin.py:115} INFO - [2024-10-08 16:59:02,603] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-12T00:00:00+00:00, run_after=2022-01-13T00:00:00+00:00
+[2024-10-08 16:59:02,698] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.627 seconds
+[2024-10-08 17:03:51,546] {processor.py:153} INFO - Started process (PID=27024) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:03:51,680] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 17:03:51,681] {logging_mixin.py:115} INFO - [2024-10-08 17:03:51,681] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:03:52,244] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:03:52,258] {logging_mixin.py:115} INFO - [2024-10-08 17:03:52,258] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 17:03:52,274] {logging_mixin.py:115} INFO - [2024-10-08 17:03:52,274] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-20T00:00:00+00:00, run_after=2022-01-21T00:00:00+00:00
+[2024-10-08 17:03:53,443] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.903 seconds
+[2024-10-08 17:14:34,033] {processor.py:153} INFO - Started process (PID=34067) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:14:34,051] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 17:14:34,052] {logging_mixin.py:115} INFO - [2024-10-08 17:14:34,052] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:14:34,555] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:14:34,590] {logging_mixin.py:115} INFO - [2024-10-08 17:14:34,590] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 17:14:34,604] {logging_mixin.py:115} INFO - [2024-10-08 17:14:34,603] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2024-09-17T00:00:00+00:00, run_after=2024-09-18T00:00:00+00:00
+[2024-10-08 17:14:34,677] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 0.651 seconds
+[2024-10-08 17:15:28,148] {processor.py:153} INFO - Started process (PID=34670) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:15:28,162] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py for tasks to queue
+[2024-10-08 17:15:28,164] {logging_mixin.py:115} INFO - [2024-10-08 17:15:28,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:15:28,658] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py
+[2024-10-08 17:15:28,668] {logging_mixin.py:115} INFO - [2024-10-08 17:15:28,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 17:15:28,685] {logging_mixin.py:115} INFO - [2024-10-08 17:15:28,685] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2024-09-18T00:00:00+00:00, run_after=2024-09-19T00:00:00+00:00
+[2024-10-08 17:15:29,396] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/get_stocks.py took 1.251 seconds

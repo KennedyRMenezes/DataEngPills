@@ -1,0 +1,24 @@
+[2024-10-08 16:58:38,271] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.GOOG scheduled__2022-01-11T00:00:00+00:00 [queued]>
+[2024-10-08 16:58:38,277] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.GOOG scheduled__2022-01-11T00:00:00+00:00 [queued]>
+[2024-10-08 16:58:38,277] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 16:58:38,277] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-10-08 16:58:38,277] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 16:58:39,851] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): GOOG> on 2022-01-11 00:00:00+00:00
+[2024-10-08 16:58:39,855] {standard_task_runner.py:52} INFO - Started process 23503 to run task
+[2024-10-08 16:58:39,859] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'GOOG', 'scheduled__2022-01-11T00:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpg15mtzbx', '--error-file', '/tmp/tmp0qegbmfo']
+[2024-10-08 16:58:39,860] {standard_task_runner.py:80} INFO - Job 49: Subtask GOOG
+[2024-10-08 16:58:41,682] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.GOOG scheduled__2022-01-11T00:00:00+00:00 [running]> on host ken
+[2024-10-08 16:58:42,399] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=GOOG
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-11T00:00:00+00:00
+[2024-10-08 16:58:46,363] {history.py:244} ERROR - $GOOG: possibly delisted; no price data found  (1h 2022-01-10 -> 2022-01-11) (Yahoo error = "1h data not available for startTime=1641790800 and endTime=1641877200. The requested range must be within the last 730 days.")
+[2024-10-08 16:58:46,367] {python.py:173} INFO - Done. Returned value was: None
+[2024-10-08 16:58:46,381] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=GOOG, execution_date=20220111T000000, start_date=20241008T195838, end_date=20241008T195846
+[2024-10-08 16:58:46,611] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-10-08 16:58:46,624] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

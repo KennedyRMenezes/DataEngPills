@@ -1,0 +1,10 @@
+[2024-10-08 17:13:24,923] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2022-02-08T00:00:00+00:00 [queued]>
+[2024-10-08 17:13:24,928] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2022-02-08T00:00:00+00:00 [queued]>
+[2024-10-08 17:13:24,928] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 17:13:24,928] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-10-08 17:13:24,928] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 17:13:43,945] {taskinstance.py:1149} INFO - Dependencies not met for <TaskInstance: get_stocks_dag.TSLA scheduled__2022-02-08T00:00:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-10-08 17:13:44,090] {taskinstance.py:1149} INFO - Dependencies not met for <TaskInstance: get_stocks_dag.TSLA scheduled__2022-02-08T00:00:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-10-08 17:13:44,091] {local_task_job.py:101} INFO - Task is not able to be run

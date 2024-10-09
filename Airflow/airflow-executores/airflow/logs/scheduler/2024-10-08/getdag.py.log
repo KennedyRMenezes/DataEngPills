@@ -1,0 +1,7 @@
+[2024-10-08 16:50:22,663] {processor.py:153} INFO - Started process (PID=19668) to work on /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/getdag.py
+[2024-10-08 16:50:22,664] {processor.py:641} INFO - Processing file /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/getdag.py for tasks to queue
+[2024-10-08 16:50:22,665] {logging_mixin.py:115} INFO - [2024-10-08 16:50:22,665] {dagbag.py:507} INFO - Filling up the DagBag from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/getdag.py
+[2024-10-08 16:50:23,402] {processor.py:651} INFO - DAG(s) dict_keys(['get_stocks_dag']) retrieved from /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/getdag.py
+[2024-10-08 16:50:23,447] {logging_mixin.py:115} INFO - [2024-10-08 16:50:23,447] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-08 16:50:23,471] {logging_mixin.py:115} INFO - [2024-10-08 16:50:23,470] {dag.py:2927} INFO - Setting next_dagrun for get_stocks_dag to 2022-01-01T00:00:00+00:00, run_after=2022-01-04T00:00:00+00:00
+[2024-10-08 16:50:23,673] {processor.py:161} INFO - Processing /home/kennedy/KR/Programação/00.Estudos/DataEng/Alura/airflow-executores/airflow/dags/getdag.py took 1.016 seconds

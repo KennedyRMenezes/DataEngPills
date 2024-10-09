@@ -1,0 +1,24 @@
+[2024-10-09 10:47:03,113] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2024-10-05T00:00:00+00:00 [queued]>
+[2024-10-09 10:47:03,136] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2024-10-05T00:00:00+00:00 [queued]>
+[2024-10-09 10:47:03,136] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-09 10:47:03,136] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-10-09 10:47:03,136] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-09 10:47:03,179] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): DOGE> on 2024-10-05 00:00:00+00:00
+[2024-10-09 10:47:03,194] {standard_task_runner.py:52} INFO - Started process 76886 to run task
+[2024-10-09 10:47:03,199] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'DOGE', 'scheduled__2024-10-05T00:00:00+00:00', '--job-id', '489', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmpvmihtk7u', '--error-file', '/tmp/tmpmuae0lh9']
+[2024-10-09 10:47:03,202] {standard_task_runner.py:80} INFO - Job 489: Subtask DOGE
+[2024-10-09 10:47:03,682] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.DOGE scheduled__2024-10-05T00:00:00+00:00 [running]> on host ken
+[2024-10-09 10:47:03,930] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=DOGE
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-05T00:00:00+00:00
+[2024-10-09 10:47:07,798] {history.py:122} ERROR - $DOGE: possibly delisted; no timezone found
+[2024-10-09 10:47:17,814] {python.py:173} INFO - Done. Returned value was: None
+[2024-10-09 10:47:18,811] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=DOGE, execution_date=20241005T000000, start_date=20241009T134703, end_date=20241009T134718
+[2024-10-09 10:47:18,890] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-10-09 10:47:18,957] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,24 @@
+[2024-10-08 17:07:11,707] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2022-01-26T00:00:00+00:00 [queued]>
+[2024-10-08 17:07:11,716] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2022-01-26T00:00:00+00:00 [queued]>
+[2024-10-08 17:07:11,716] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 17:07:11,716] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-10-08 17:07:11,716] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-08 17:07:11,802] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2022-01-26 00:00:00+00:00
+[2024-10-08 17:07:11,806] {standard_task_runner.py:52} INFO - Started process 29410 to run task
+[2024-10-08 17:07:11,809] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2022-01-26T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpymj86zs0', '--error-file', '/tmp/tmp7fkvcfsf']
+[2024-10-08 17:07:11,810] {standard_task_runner.py:80} INFO - Job 92: Subtask MSFT
+[2024-10-08 17:07:11,967] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2022-01-26T00:00:00+00:00 [running]> on host ken
+[2024-10-08 17:07:12,281] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-26T00:00:00+00:00
+[2024-10-08 17:07:16,420] {history.py:244} ERROR - $MSFT: possibly delisted; no price data found  (1h 2022-01-25 -> 2022-01-26) (Yahoo error = "1h data not available for startTime=1643086800 and endTime=1643173200. The requested range must be within the last 730 days.")
+[2024-10-08 17:07:16,428] {python.py:173} INFO - Done. Returned value was: None
+[2024-10-08 17:07:16,442] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20220126T000000, start_date=20241008T200711, end_date=20241008T200716
+[2024-10-08 17:07:16,564] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-10-08 17:07:16,595] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
