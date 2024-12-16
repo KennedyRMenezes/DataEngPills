@@ -1,0 +1,2 @@
+https://cursos.alura.com.br/course/aws-data-lake-processando-dados-aws-emr
+
