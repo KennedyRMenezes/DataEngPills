@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName('Spark Playground').getOrCreate()
 
-file_path = '/datasets/customers.csv'
+file_path = '/customer_data.csv'
 
 df = spark.read.format('csv').option('header', 'true').load(file_path)
 
