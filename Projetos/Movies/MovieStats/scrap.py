@@ -10,17 +10,21 @@ from concurrent.futures import ThreadPoolExecutor
 from openpyxl import load_workbook
 from datetime import datetime
 from bs4 import BeautifulSoup
+import pandas as pd
+import csv
 import time
 import re
 
-options = webdriver.ChromeOptions()
+options = Options()
+options.add_argument('--log-level=3')  # Desabilitar logs (0 = INFO, 3 = ERROS)
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--disable-extensions')
 options.add_argument('--disable-software-rasterizer')
-
+options.add_argument('--ignore-certificate-errors')
+options.add_argument('--allow-running-insecure-content')
 
 class MovieData:
 
@@ -34,9 +38,9 @@ class MovieData:
 
         self.soup = self.getSoup(self.url)
         
-        # self.getNumViwes()
-        # self.getTitleMovie()
-        # self.saveData()
+        self.getNumViwes()
+        self.getTitleMovie()
+        self.saveData()
 
     def __del__(self):
         self.print_current_time("Class end")
@@ -88,18 +92,18 @@ class MovieData:
         now = datetime.now()
         self.now = now.strftime("%Y-%m-%d %H:%M:%S")
 
-        file = './movies_stats.xlsx'
-        wb = load_workbook(file)
-        ws = wb.active
+        list_to_append = [self.title, self.views, self.now]
 
-        ws.append([self.title, self.views, self.now])
+        file_name = './movies_stats.csv'
 
-        wb.save(file)
+        # Adiciona o novo registro
+        with open(file_name, 'a+') as file:
+            writer = csv.writer(file, delimiter=";")
+            writer.writerow(list_to_append)
 
-        print("\nDone!")
+            print("\nDone!")
 
         return self
-    
 
 if __name__ == "__main__":
 
