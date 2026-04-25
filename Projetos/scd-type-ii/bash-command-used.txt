@@ -1,0 +1,26 @@
+docker-compose down -v
+docker-compose up -d
+docker ps
+docker ps -a
+docker logs scd_postgres
+docker-compose up -d --build
+docker exec -it scd_postgres psql -U postgres -d project_scd_ii
+
+
+netstat -ano | findstr 5432 : ver quais processos estão rodando na porte 5432
+  TCP    0.0.0.0:5432           0.0.0.0:0              LISTENING       5868
+  TCP    0.0.0.0:5432           0.0.0.0:0              LISTENING       9248
+  TCP    [::]:5432              [::]:0                 LISTENING       9248
+  TCP    [::]:5432              [::]:0                 LISTENING       5868
+  TCP    [::1]:5432             [::1]:49670            ESTABLISHED     5868
+  TCP    [::1]:49670            [::1]:5432             ESTABLISHED     5252
+
+
+tasklist | findstr 5868
+			--> analisa o que está rodando em 5432
+tasklist | findstr 9248
+
+
+
+docker exec -it scd_postgres psql -U postgres -d project_scd_ii
+	\dt : show the tables

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: scd_postgres
+
+    environment:  
+      POSTGRES_DB: project_scd_ii
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    
+    ports:
+      - "5433:5432"
+    
+    volumes:
+      - ./docker/init:/docker-entrypoint-initdb.d
